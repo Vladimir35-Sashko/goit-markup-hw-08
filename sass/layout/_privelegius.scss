@@ -1,0 +1,47 @@
+.privelegius {
+  margin: 0;
+  padding: 94px 0;
+}
+.privelegius-list {
+  display: flex;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.privelegius-list__item {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.privelegius-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.privelegius-group__icon {
+  width: 70px;
+  height: 70px;
+}
+.privelegius__title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.privelegius__discription {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  margin: 0;
+  letter-spacing: 0.03em;
+  color: #757575;
+}

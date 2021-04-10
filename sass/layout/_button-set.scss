@@ -1,0 +1,36 @@
+.navigation-button-set {
+  margin: 0;
+  padding: 94px 0;
+}
+.navigation-button-set-list {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 50px 0;
+  padding: 0;
+}
+.navigation-button-set-list__item {
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
+}
+.navigation-button-set-list__btn {
+  display: block;
+  padding: 6px 22px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  border: transparent;
+  border-radius: 4px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  transition-property: background, color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background: var(--accent-color);
+    color: #ffffff;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+}
