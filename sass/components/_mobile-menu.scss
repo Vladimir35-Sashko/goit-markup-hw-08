@@ -14,7 +14,8 @@
   }
 }
 @media screen and (min-width: 768px) {
-  .open-mobile-menu-button {
+  .open-mobile-menu-button,
+  .mobile-menu {
     display: none;
   }
 }
@@ -57,11 +58,7 @@
   visibility: visible;
   pointer-events: auto;
 }
-@media screen and (min-width: 768px) {
-  .mobile-menu {
-    display: none;
-  }
-}
+
 .mobile-menu__list {
   margin-bottom: 302px;
 }
