@@ -221,6 +221,7 @@
                     ./studio-img/desktop/what-we-do/comp@2x.jpg   2x,
                     ./studio-img/desktop/what-we-do/compwebp.webp 3x
                   "
+                  sizes="33.33vw"
                   class="about-list__img"
                   src="./studio-img/desktop/what-we-do/comp.jpg"
                   alt="разрабатываем дизайн програм для компьютеров"
@@ -238,6 +239,7 @@
                     ./studio-img/desktop/what-we-do/tel@2x.jpg   2x,
                     ./studio-img/desktop/what-we-do/telwebp.webp 3x
                   "
+                  sizes="33.33vw"
                   class="about-list__img"
                   src="./studio-img/desktop/what-we-do/tel.jpg"
                   alt="разрабатываем дизайн програм для телефонов"
@@ -255,6 +257,7 @@
                     studio-img/desktop/what-we-do/tablet@2x.jpg   2x,
                     studio-img/desktop/what-we-do/tabletwebp.webp 3x
                   "
+                  sizes="33.33vw"
                   class="about-list__img"
                   src="./studio-img/desktop/what-we-do/tablet.jpg"
                   alt="разрабатываем дизайн програм для планшетов"
@@ -268,18 +271,44 @@
         </div>
       </section>
       <!--Состав команды-->
-      <!-- <section class="members">
+      <section class="members">
         <div class="container">
           <h2 class="members__title">Наша команда</h2>
           <ul class="members-list list">
             <li class="members-list__item">
-              <img
-                class="members-list__foto"
-                src="./images/our-team/igor.jpg"
-                alt="молодой человек в коричневой рубашке и очках улыбается"
-                width="270"
-                height="260"
-              />
+              <picture class="picture">
+                <source
+                  srcset="
+                    ./studio-img/desktop/our-team/igor.jpg      1x,
+                    ./studio-img/desktop/our-team/igor@2x.jpg   2x,
+                    ./studio-img/desktop/our-team/igorwebp.webp 3x
+                  "
+                  media="(min-widht:1200px)"
+                />
+                <source
+                  srcset="
+                    ./studio-img/tablet/our-team/igor.jpg      1x,
+                    ./studio-img/tablet/our-team/igor@2x.jpg   2x,
+                    ./studio-img/tablet/our-team/igorwebp.webp 3x
+                  "
+                  media="(min-widht:768px)"
+                />
+                <source
+                  srcset="
+                    ./studio-img/mobile/our-team/igor.jpg      1x,
+                    ./studio-img/mobile/our-team/igor@2x.jpg   2x,
+                    ./studio-img/mobile/our-team/igorwebp.webp 3x
+                  "
+                  media="(min-widht:320px)"
+                />
+                <img
+                  class="members-list__foto"
+                  src="./images/our-team/igor.jpg"
+                  alt="молодой человек в коричневой рубашке и очках улыбается"
+                  width="270"
+                  height="260"
+                />
+              </picture>
               <div class="members-wrapper">
                 <h3 class="members-wrapper__name">Игорь Демьяненко</h3>
                 <p class="members-wrapper__profession" lang="en">
@@ -326,13 +355,39 @@
               </div>
             </li>
             <li class="members-list__item">
-              <img
-                class="members-list__foto"
-                src="./images/our-team/olga.jpg"
-                alt="белокурая девушка в очках улыбается"
-                width="270"
-                height="260"
-              />
+              <picture class="picture">
+                <source
+                  srcset="
+                    ./studio-img/desktop/our-team/olga.jpg      1x,
+                    ./studio-img/desktop/our-team/olga@2x.jpg   2x,
+                    ./studio-img/desktop/our-team/olgawebp.webp 3x
+                  "
+                  media="(min-widht:1200px)"
+                />
+                <source
+                  srcset="
+                    ./studio-img/tablet/our-team/olga.jpg      1x,
+                    ./studio-img/tablet/our-team/olga@2x.jpg   2x,
+                    ./studio-img/tablet/our-team/olgawebp.webp 3x
+                  "
+                  media="(min-widht:768px)"
+                />
+                <source
+                  srcset="
+                    ./studio-img/mobile/our-team/olga.jpg      1x,
+                    ./studio-img/mobile/our-team/olga@2x.jpg   2x,
+                    ./studio-img/mobile/our-team/olgawebp.webp 3x
+                  "
+                  media="(min-widht:320px)"
+                />
+                <img
+                  class="members-list__foto"
+                  src="./images/our-team/olga.jpg"
+                  alt="белокурая девушка в очках улыбается"
+                  width="270"
+                  height="260"
+                />
+              </picture>
               <div class="members-wrapper">
                 <h3 class="members-wrapper__name">Ольга Репина</h3>
                 <p class="members-wrapper__profession" lang="en">
@@ -379,13 +434,39 @@
               </div>
             </li>
             <li class="members-list__item">
-              <img
-                class="members-list__foto"
-                src="./images/our-team/nik.jpg"
-                alt="молодой человек в голубой рубашке улыбается"
-                width="270"
-                height="260"
-              />
+              <picture class="picture">
+                <source
+                  srcset="
+                    ./studio-img/desktop/our-team/nik.jpg      1x,
+                    ./studio-img/desktop/our-team/nik@2x.jpg   2x,
+                    ./studio-img/desktop/our-team/nikwebp.webp 3x
+                  "
+                  media="(min-widht:1200px)"
+                />
+                <source
+                  srcset="
+                    ./studio-img/tablet/our-team/nik.jpg      1x,
+                    ./studio-img/tablet/our-team/nik@2x.jpg   2x,
+                    ./studio-img/tablet/our-team/nikwebp.webp 3x
+                  "
+                  media="(min-widht:768px)"
+                />
+                <source
+                  srcset="
+                    ./studio-img/mobile/our-team/nik.jpg      1x,
+                    ./studio-img/mobile/our-team/nik@2x.jpg   2x,
+                    ./studio-img/mobile/our-team/nikwebp.webp 3x
+                  "
+                  media="(min-widht:320px)"
+                />
+                <img
+                  class="members-list__foto"
+                  src="./images/our-team/nik.jpg"
+                  alt="молодой человек в голубой рубашке улыбается"
+                  width="270"
+                  height="260"
+                />
+              </picture>
               <div class="members-wrapper">
                 <h3 class="members-wrapper__name">Николай Тарасов</h3>
                 <p class="members-wrapper__profession" lang="en">Marketing</p>
@@ -430,13 +511,39 @@
               </div>
             </li>
             <li class="members-list__item">
-              <img
-                class="members-list__foto"
-                src="./images/our-team/mike.jpg"
-                alt="молодой человек в черной футболке и очках улыбается"
-                width="270"
-                height="260"
-              />
+              <picture class="picture">
+                <source
+                  srcset="
+                    ./studio-img/desktop/our-team/mike.jpg      1x,
+                    ./studio-img/desktop/our-team/mike@2x.jpg   2x,
+                    ./studio-img/desktop/our-team/mikewebp.webp 3x
+                  "
+                  media="(min-widht:1200px)"
+                />
+                <source
+                  srcset="
+                    ./studio-img/tablet/our-team/mike.jpg      1x,
+                    ./studio-img/tablet/our-team/mike@2x.jpg   2x,
+                    ./studio-img/tablet/our-team/mikewebp.webp 3x
+                  "
+                  media="(min-widht:768px)"
+                />
+                <source
+                  srcset="
+                    ./studio-img/mobile/our-team/mike.jpg      1x,
+                    ./studio-img/mobile/our-team/mike@2x.jpg   2x,
+                    ./studio-img/mobile/our-team/mikewebp.webp 3x
+                  "
+                  media="(min-widht:320px)"
+                />
+                <img
+                  class="members-list__foto"
+                  src="./images/our-team/mike.jpg"
+                  alt="молодой человек в черной футболке и очках улыбается"
+                  width="270"
+                  height="260"
+                />
+              </picture>
               <div class="members-wrapper">
                 <h3 class="members-wrapper__name">Михаил Ермаков</h3>
                 <p class="members-wrapper__profession" lang="en">UI Designer</p>
@@ -482,7 +589,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- Секция постоянные клиенты  -->
       <!-- <section class="clients">
         <div class="clients-container container">
