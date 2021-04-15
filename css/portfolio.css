@@ -443,6 +443,7 @@ img {
 }
 
 .footer-social-list {
+  justify-content: center;
   display: flex;
   align-items: center;
   margin-top: 20px;

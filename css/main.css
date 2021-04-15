@@ -239,6 +239,7 @@ img {
 }
 
 .hero-container {
+  max-width: 1600px;
   margin: 0 auto;
   padding: 118px 0;
   background-repeat: no-repeat;
@@ -312,6 +313,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .hero {
+    max-width: 1600px;
     padding: 0 252px;
   }
 }
@@ -762,6 +764,7 @@ img {
 }
 
 .footer-social-list {
+  justify-content: center;
   display: flex;
   align-items: center;
   margin-top: 20px;
