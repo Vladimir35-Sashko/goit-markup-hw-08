@@ -1,11 +1,19 @@
 .social-list {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-left: 32px;
-  margin-right: 32px;
+  justify-content: center;
+  margin-left: 120px;
+  margin-right: 120px;
   background: #ffffff;
   margin-top: 16px;
+  @media screen and (min-width: 768px) {
+    margin-left: 74px;
+    margin-right: 74px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
 }
 .social-list__link {
   display: flex;
