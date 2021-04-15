@@ -238,9 +238,13 @@ img {
   color: var(--accent-color);
 }
 
-.hero-container {
+.section-hero {
   max-width: 1600px;
+  background-color: #2f303a;
   margin: 0 auto;
+}
+
+.hero-container {
   padding: 118px 0;
   background-repeat: no-repeat;
   text-align: center;
@@ -288,11 +292,6 @@ img {
   }
 }
 
-.hero {
-  background-color: #2f303a;
-  margin: 0;
-}
-
 @media screen and (min-width: 452px) and (max-width: 479px) {
   .hero {
     padding: 0 30px;
@@ -313,7 +312,6 @@ img {
 
 @media screen and (min-width: 1200px) {
   .hero {
-    max-width: 1600px;
     padding: 0 252px;
   }
 }
